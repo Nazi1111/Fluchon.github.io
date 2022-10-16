@@ -151,7 +151,7 @@ p{
     justify-content: space-between;
 }
 .course-sec{
-    flex-basis: 31%;
+    flex-basis: 21%;
     background: rgb(110, 110, 212);
     border-radius: 10px;
     margin-top: 2%;
@@ -164,6 +164,7 @@ h3{
     padding: 0%;
     font-weight: 600;
     margin: 10px 0;
+   
 }
 .course-sec:hover{
     box-shadow: 0 0 20px blue;
@@ -177,7 +178,7 @@ h3{
 /*----about---*/
 .about-ceo{
     text-align: center;
-    padding-top: 100px; 
+    padding-top: 50px; 
     width: 80%;
     margin: auto;
     background-color: aliceblue;
@@ -221,7 +222,7 @@ h3{
     font-size: 26px;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%) ;
+    transform: translateX(-50%) ;
     position: absolute;
     opacity: 0;
     transition: 0.5s;
